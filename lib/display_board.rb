@@ -1,9 +1,11 @@
 def display_board
-    board = " ""  | ""  | "" " + "\n"
-         puts "-----------" + "\n"
-         + "  ""  | ""  | ""  " + "\n"
-         puts "-----------" + "\n"
-         + " ""   | ""  | ""  " + "\n"
-     puts board
+  cell = "   "
+  separator = "|"
+  lines = "-----------"
+
+  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
+  puts "#{lines}"
+  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
+  puts "#{lines}"
+  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
 end
-print display_board
