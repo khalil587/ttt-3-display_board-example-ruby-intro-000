@@ -4,6 +4,6 @@ def display_board
          + "  ""  | ""  | ""  " + "\n"
          puts "-----------" + "\n"
          + " ""   | ""  | ""  " + "\n"
-     print board
+     puts board
 end
 
