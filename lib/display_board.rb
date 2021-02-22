@@ -5,4 +5,3 @@ def display_board
          puts "-----------" + "\n"
          + " ""   | ""  | ""  " + "\n"
 end
-print board
