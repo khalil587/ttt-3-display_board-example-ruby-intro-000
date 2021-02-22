@@ -6,4 +6,4 @@ def display_board
          + " ""   | ""  | ""  " + "\n"
      puts board
 end
-print display_board
+print board
